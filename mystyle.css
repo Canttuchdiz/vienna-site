@@ -104,6 +104,17 @@ max-height: 400px;
   background-color: #dddddd;
 }
 
+.white-box {
+  margin: 1em auto;
+  border: black;
+  border-style: solid;
+  padding: 1em;
+  width: fit-content;
+  text-align: center;
+  background-color: turquoise;
+  color: black;
+}
+
 #style-table {
   background-color: #009879;
   color: #ffffff;
@@ -115,6 +126,16 @@ max-height: 400px;
   color:#ffffff;
   text-align: left;
   
+}
+
+.semi-box {
+  margin: 1em auto; max-width: 800px;
+  text-align: center;
+  border: 3px;
+  border-color: black;
+  border-style: solid;
+  padding: 1em;
+  background-color: #71988B;
 }
 
 .styled-table th,
