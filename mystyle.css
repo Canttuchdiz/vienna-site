@@ -1,0 +1,138 @@
+#jeffy
+{
+color: aqua;
+}
+
+
+
+.parallax-effect {
+    background-image: url("https://www.looper.com/img/gallery/the-untold-truth-of-jojos-bizarre-adventure/what-is-jojos-bizarre-adventure-1584147803.jpg");
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: gray; /* Tint color */
+    background-blend-mode: multiply;
+  }
+  .text {
+    height: 500px;
+    background-image: url("https://cdn.aiktry.com/monthly_2020_07/1171835968_Rinne-SharinganSasukeLooksCool.png.89e8cecde37284381801b7ad414019e0.png");
+    font-size: 36px;
+    text-align: center;
+    font-family: Impact, fantasy;
+  }
+
+body {
+  background-color: gray;
+}
+
+  #center-screen {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+  }
+
+  .cell-info {
+
+    padding: 2em
+
+  }
+
+
+  
+#jeff {
+
+border: 5px solid black;
+max-width: 400px;
+max-height: 400px;
+
+}
+
+
+
+  .big-box{
+    margin: 1em auto; max-width: 800px;
+    top: 20%;
+    left: 50%;
+    text-align: center;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+    padding: 1em;
+    background-color: #71988B;
+  }
+
+  #baka-box{
+    margin: 1em auto; max-width: 800px;
+    left: 50%;
+    top: 30%;
+
+
+  }
+
+  .power {
+    background-color: #009879;
+    margin: 1em auto; width: 500px;
+    text-align: center;
+    border: black;
+    padding: 1em;
+    border-style: solid;
+    margin-top: 500px;
+
+  }
+
+  .styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 1000px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+#flight {
+  margin: 1em auto;
+  border: black;
+  border-style: solid;
+  padding: 1em;
+  width: fit-content;
+  text-align: center;
+  background-color: #dddddd;
+}
+
+#style-table {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+#full-row{
+  background-color: #009879;
+  color:#ffffff;
+  text-align: left;
+  
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+  background-color: #ffffff;
+}
+
+
+
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
